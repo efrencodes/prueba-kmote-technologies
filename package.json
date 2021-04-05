@@ -1,8 +1,8 @@
 {
   "name": "prueba-kmote",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "Prueba Kmote Technologies",
+  "productName": "Prueba Kmote Technologies",
   "author": "efrenmartinez <developer.emartinez@gmail.com>",
   "private": true,
   "scripts": {
