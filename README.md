@@ -1,26 +1,51 @@
-# Quasar App (prueba-kmote)
+# 🎉 Prueba técnica para Kmote Tecnologies
 
-A Quasar Framework app
+## 📱 [Live Review](https://prueba-kmote-technologies.efrenmartinez.dev/#/)
+## 📋 [Repositorio](https://github.com/efrenmartinez/prueba-kmote-technologies)
 
-## Install the dependencies
+## 📦  Instalación
+
+> NOTA: USÉ MAC PARA DESARROLLAR LA PRUEBA.
+
+1. Se necesita clonar el repositorio desde GITHUB:
+
 ```bash
-yarn
+$ git clone https://github.com/efrenmartinez/prueba-kmote-technologies.git
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+2. Acceder a la carpeta *prueba-kmote-technologies*.
+
 ```bash
-quasar dev
+$ cd prueba-kmote-technologies
 ```
 
-### Lint the files
+3. Instalar las dependencias.  Se puede usar [NPM](https://www.npmjs.com/). Correr el siguiente comando:
+
 ```bash
-yarn run lint
+$ npm install
 ```
 
-### Build the app for production
-```bash
-quasar build
-```
+4. Para correr el proyecto, ejecutar el comando:
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+```bash
+$ npx quasar dev -m pwa
+```
+## 📖 Contenido
+
+Para la prueba me pedieron ciertos puntos a considerar:
+
+* Me proporcionaron un endpoint de una API, en cual, respondía un listado de usuarios, de los cuales debí generar un ejemplo de cómo se verían en una plataforma Web.
+
+En este caso decidí usar y configurar el proyecto de esta manera:
+
+* **Quasar Framework** es un framework de VueJS que permite desplegar aplicaciones como PWA, SSR, SPA.
+* **Vercel** para hostedar el sitio desde github.
+
+La plataforma que me parecio la forma mas correcta fue mostrarlo como un administrador en donde el usuario pueda iniciar sesión
+y mostrar un listado de los usuarios.
+
+El listado de los usuarios puede ordenarse por cada columna.
+
+Además de ver la posilidad de 'Ver detalles', 'Editar' y 'Eliminar' (solo cómo demostración) de cada registro.
+
+Igual tiene una paginación para los resgistro.
