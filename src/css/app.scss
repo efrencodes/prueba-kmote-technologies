@@ -1,0 +1,55 @@
+// app global css in SCSS form
+
+body {
+  background-color: #f9f9ff;
+}
+
+.q-badge.no {
+  background-color: #ef3535;
+  color: #fff;
+}
+.q-badge.yes {
+  background-color: #4fd54a;
+  color: #fff;
+}
+
+.q-table {
+  &__top {
+    padding: 0px;
+  }
+  &__bottom {
+    padding: 0 20px;
+    height: 65px;
+    border-top: 1px solid rgb(71 84 109 / 0.2);
+  }
+  thead tr,
+  tbody td {
+    height: 50px;
+  }
+  thead tr th {
+    font-size: 12px;
+    font-weight: $semibold;
+    color: $color-text-primary;
+    line-height: 17px;
+    border-bottom: 1px solid rgb(71 84 109 / 0.2);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background: #fff;
+  }
+  tbody tr:hover {
+    background: rgb(0 153 255 / 0.1);
+    td:first-child {
+      color: $primary;
+    }
+  }
+  tbody tr td {
+    &:first-child {
+      font-weight: $semibold;
+    }
+    font-size: 14px;
+    font-weight: $regular;
+    color: $color-text-primary;
+    line-height: 19px;
+  }
+}
